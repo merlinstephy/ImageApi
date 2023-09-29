@@ -40,7 +40,7 @@ const NavComponent = () => {
                
             </Navbar>
             <Routes>
-                    
+            <Route path='/Home' element = {<Home/>}></Route>
                             <Route path='/photogallery' element = {<Photo/>}></Route>
                             </Routes>
         </div>
